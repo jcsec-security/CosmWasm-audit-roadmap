@@ -26,7 +26,7 @@ You don´t need a high level of Rust programming to start, which is quite challe
 
 There are a lot of free basic courses out there, for example: [Udemy: Ultimate rust crash course](https://www.udemy.com/course/ultimate-rust-crash-course/) and its second part [Ultimate rust 2](https://www.udemy.com/course/ultimate-rust-2/)
  
-:bulb: You can find easy code examples to follow or try to implement yourself at [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/). There are a lot of additional sites with Rust exercises such as [Exercism's Rust path](https://exercism.org/tracks/rust)
+:bulb: You can find easy code examples to follow or try to implement yourself at [Rust by Example](https://doc.rust-lang.org/rust-by-example/). There are a lot of additional sites with Rust exercises such as [Exercism's Rust path](https://exercism.org/tracks/rust)
 
 :star: [I loved Rustlings](https://github.com/rust-lang/rustlings), as you get to learn Rust by actually fixing code snippets that you have to previously understand which is quite similar to auditing in a sense. 
 
