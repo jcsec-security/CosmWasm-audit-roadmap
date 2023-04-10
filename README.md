@@ -2,7 +2,7 @@
 
 The following is a list of interesting resources in case you want to start auditing [CosmWasm](https://cosmwasm.com/) smart contracts. I have not personally reviewed some of the resources, but those have been useful to others in the past and therefore worthy of mention. 
 
- My recommended path looks like:
+ The obvious recommendation looks like:
  1. Blockchain and smart contracts basics
  2. Rust lang
  3. CosmWasm
