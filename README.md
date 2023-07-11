@@ -24,7 +24,7 @@ You first need to be familiar with the basic concepts of blockchain technologies
 You don´t need a high level of Rust programming to start, which is quite challenging IMO, just to be able to clearly understand Rust code and create basic programs. 
 > For any question that could come to your mind during this journey, [the Rust Book](https://doc.rust-lang.org/stable/book/) will most likely be your bible.
 
-There are a lot of free basic courses out there, for example: [Udemy: Ultimate rust crash course](https://www.udemy.com/course/ultimate-rust-crash-course/) and it's second part [Ultimate rust 2](https://www.udemy.com/course/ultimate-rust-2/)
+There are a lot of free basic courses out there, for example: [Udemy: Ultimate rust crash course](https://www.udemy.com/course/ultimate-rust-crash-course/) and its second part [Ultimate rust 2](https://www.udemy.com/course/ultimate-rust-2/)
  
 :bulb: You can find easy code examples to follow or try to implement yourself at [Rust by Example](https://doc.rust-lang.org/rust-by-example/). There are a lot of additional sites with Rust exercises such as [Exercism's Rust path](https://exercism.org/tracks/rust)
 
@@ -36,7 +36,7 @@ I sometimes use [Rust Playground](https://play.rust-lang.org/) as a quick ready-
 
 ### CosmWasm
 
-At this point, you already have at least basic knowledge of blockchain techs, smart contracts, and rust. It is about time to actually get into CosmWasm! There is a set of posts featured by Ethan Frey [(@ethanfrey)](https://github.com/ethanfrey) that are now outdated but could still give you a nice overview and comparison with other techs:
+At this point, you already have at least basic knowledge of blockchain techs, smart contracts, and Rust. It is about time to actually get into CosmWasm! There is a set of posts featured by Ethan Frey [(@ethanfrey)](https://github.com/ethanfrey) that are now outdated but could still give you a nice overview and comparison with other techs:
 - [CosmWasm for Developers](https://blog.cosmos.network/cosmwasm-for-developers-7640ee38430f)
 - [CosmWasm for CTOs 0](https://medium.com/cosmwasm/cosmwasm-for-ctos-f1ffa19cccb8), [I: the architecture](https://medium.com/cosmwasm/cosmwasm-for-ctos-i-the-architecture-59a3e52d9b9c), [II: advanced usage](https://medium.com/cosmwasm/cosmwasm-for-ctos-ii-advanced-usage-ee04ce95d1d0), [IV: native integrations](https://medium.com/cosmwasm/cosmwasm-for-ctos-iv-native-integrations-713140bf75fc)
 
@@ -53,7 +53,7 @@ CosmWasm smart contract programming will be your next stop. You should be able t
 3. [Area 52](https://area-52.io/)
 4. [Terra academy: CosmWasm smart contracts I](https://academy.terra.money/courses/cosmwasm-smart-contracts-i)
 
-:heavy_plus_sign: [CosmWasm Plus](https://github.com/CosmWasm/cw-plus) is a set of publicly available base contracts of common implementations following the idea of [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts). Going over some of the main ones and understanding their architecture and behavior is a good way to start testing your Smart Contract analysis game, your main skill as a future auditor.
+:heavy_plus_sign: [CosmWasm Plus](https://github.com/CosmWasm/cw-plus) is a set of publicly available base contracts of common implementations following the idea of [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts). Going over some of the main ones and understanding their architecture and behavior is an excellent way to start testing your Smart Contract analysis game, your main skill as a future auditor.
 - [CW20 fungible token](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md)
 - [CW721 non-fungible token](https://github.com/CosmWasm/cw-nfts/blob/main/packages/cw721/README.md)
 - [CW1 fixed multisig](https://github.com/CosmWasm/cw-plus/tree/main/contracts/cw3-fixed-multisig)
@@ -75,10 +75,11 @@ Now you have all the prerequisites to get into the audit and security specifics 
 
 :muscle: The next stop is practical examples:
 1. [Oak's CosmWasm Security Dojo](https://github.com/oak-security/cosmwasm-security-dojo). In addition to the challenges themselves, you will find an `EXPLAINATION.md` on each dir giving you further details and concepts that are very useful.
-2. [DeFiVulnLabsCosmWasm](https://github.com/punishell/DeFiVulnLabsCosmWasm)
+2. [Oak Security CTF](https://github.com/oak-security/cosmwasm-ctf). CosmWasm CTF that me and Richie created for Awesomwasm 2023, a nice overview of different security issues of CW contracts. Medium difficulty I would say.
+3. [DeFiVulnLabsCosmWasm](https://github.com/punishell/DeFiVulnLabsCosmWasm)
 
 
-At the moment there are not many other good resources out there, so it is time to start reading CosmWasm audit reports. This is the best way to get familiar with the kind of security issues that we auditors find during our security reviews.
+At the moment there are not many more good resources out there, so it is time to start reading CosmWasm audit reports. This is the best way to get familiar with the kind of security issues that we auditors find during our security reviews.
 
 There are three companies that I know of that have multiple public reports of CosmWasm audits:
 1. [Oak Security](https://github.com/oak-security/audit-reports)
@@ -93,7 +94,7 @@ I don't use many tools, to be honest, just a bunch of VS Extensions and Notion f
 - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 - [Inline Bookmarks](https://marketplace.visualstudio.com/items?itemName=tintinweb.vscode-inline-bookmarks) - audit is just not the same without this one, MVP
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Do you know you can debug rust unit tests for CW smart contracts? I may write a Medium post in the future
-- [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) - easily displays test coverage from an `lcov` file
+- [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) - easily displays test coverage from a `lcov` file
 - [Line Note](https://marketplace.visualstudio.com/items?itemName=tkrkt.linenote) - I sometimes like to add 2/3 lines of additional info without breaking the total number of lines and not creating very large one-line comments
 - [Cosmy Wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - To be honest this has not been helpful to me at the moment, but I keep it in check as it will probably be a nice addition soon when they further polish some of the features.
 
