@@ -49,7 +49,7 @@ At this point, you already have at least basic knowledge of blockchain techs, sm
 
 CosmWasm smart contract programming will be your next stop. You should be able to write easy CW smart contracts, [CW Template](https://github.com/CosmWasm/cw-template) is a nice resource to play around with a bit. You can find a list of resources below, some of the content will overlap so the idea is not to do all of them but just to give more options
 1. [CosmWasm zero to hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
-2. [CosmWasm Academy](https://cosmwasm.getlearnworlds.com/)
+2. [CosmWasm Academy](https://academy.cosmwasm.com/)
 3. [Area 52](https://area-52.io/)
 4. [Terra academy: CosmWasm smart contracts I](https://academy.terra.money/courses/cosmwasm-smart-contracts-i)
 
