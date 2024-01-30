@@ -97,5 +97,6 @@ I don't use many tools, to be honest, just a bunch of VS Extensions and Notion f
 - [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) - easily displays test coverage from a `lcov` file
 - [Line Note](https://marketplace.visualstudio.com/items?itemName=tkrkt.linenote) - I sometimes like to add 2/3 lines of additional info without breaking the total number of lines and not creating very large one-line comments
 - [Cosmy Wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - To be honest this has not been helpful to me at the moment, but I keep it in check as it will probably be a nice addition soon when they further polish some of the features.
+- [L3X](https://github.com/VulnPlanet/l3x) - AI-driven Smart Contract Static Analyzer.
 
 :round_pushpin: Aside from these I use a bunch of my own scripts that I am turning into a standalone "printer" tool, will publish it soon. Keep an eye on my new repos!
