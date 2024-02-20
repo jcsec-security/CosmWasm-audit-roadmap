@@ -1,3 +1,8 @@
+> [!NOTE] 
+> Would you like to know more about my security services?
+> [Check out my website](https://jcsec.io/)!
+---
+
 # Roadmap to CosmWasm Security/Auditing
 
 The following is a list of interesting resources in case you want to start auditing [CosmWasm](https://cosmwasm.com/) smart contracts. I have not personally reviewed some of the resources, but those have been useful to others in the past and therefore worthy of mention. 
