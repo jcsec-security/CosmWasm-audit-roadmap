@@ -27,7 +27,8 @@ You first need to be familiar with the basic concepts of blockchain technologies
 ### Rust language
 
 You don´t need a high level of Rust programming to start, which is quite challenging IMO, just to be able to clearly understand Rust code and create basic programs. 
-> For any question that could come to your mind during this journey, [the Rust Book](https://doc.rust-lang.org/stable/book/) will most likely be your bible.
+> [!TIP] 
+>  For any question that could come to your mind during this journey, [the Rust Book](https://doc.rust-lang.org/stable/book/) will most likely be your bible.
 
 There are a lot of free basic courses out there, for example: [Udemy: Ultimate rust crash course](https://www.udemy.com/course/ultimate-rust-crash-course/) and its second part [Ultimate rust 2](https://www.udemy.com/course/ultimate-rust-2/)
  
