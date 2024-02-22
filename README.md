@@ -47,8 +47,8 @@ At this point, you already have at least basic knowledge of blockchain techs, sm
 - [CosmWasm for CTOs 0](https://medium.com/cosmwasm/cosmwasm-for-ctos-f1ffa19cccb8), [I: the architecture](https://medium.com/cosmwasm/cosmwasm-for-ctos-i-the-architecture-59a3e52d9b9c), [II: advanced usage](https://medium.com/cosmwasm/cosmwasm-for-ctos-ii-advanced-usage-ee04ce95d1d0), [IV: native integrations](https://medium.com/cosmwasm/cosmwasm-for-ctos-iv-native-integrations-713140bf75fc)
 
 
-:milky_way: As CosmWasm is a Cosmos SDK module and therefore will run in Cosmos chains, you should first get familiar with how Cosmos works and some core concepts. You should at least read the following Cosmos documentation:
-1. [Introduction section](https://docs.cosmos.network/v0.47/intro/overview). Includes high-level overview, application-specific blockchains, blockchain architecture and main components of the Cosmos SDK.
+:milky_way: As CosmWasm is a Cosmos SDK module that will run in Cosmos chains, you should first familiarize yourself with how Cosmos works and some core concepts. You should at least read the following Cosmos documentation:
+1. [Introduction section](https://docs.cosmos.network/v0.47/intro/overview). Includes high-level overview, application-specific blockchains, blockchain architecture, and main components of the Cosmos SDK.
 2. [Basics section](https://docs.cosmos.network/v0.47/basics/app-anatomy). Includes anatomy of a Cosmos SDK application, transaction lifecycle, query lifecycle, accounts, and gas and fees.
 
 :point_right: NOW is when we start diving into CosmWasm itself. I would say just reading the [CosmWasm Book](https://book.cosmwasm.com/) cover to cover is a good starting point to get all the concepts before trying to develop your own contracts. In addition, [this one resource](https://github.com/CosmWasm/cosmwasm/blob/main/SEMANTICS.md) has been helpful to me for quick references from time to time, some details are reflected on The Book but some others are not so clear to me there.
@@ -70,7 +70,7 @@ CosmWasm smart contract programming will be your next stop. You should be able t
 
 Getting familiar with [IBC in CosmWasm](https://github.com/CosmWasm/cosmwasm/blob/main/IBC.md) is a good addition as it will become more and more common in CW contracts. Although not mandatory at this point as it is not a basic feature, you will have to go through this sooner or later.
 
-There is an additional framework for building CosmWasm smart contracts, [the Sylvia Framework](https://medium.com/cosmwasm/the-sylvia-framework-release-b4ffbb74fe3d) but to be honest, I have never been asked to audit one of these so... not sure if this has actual community attention at the moment.
+There is an additional framework for building CosmWasm smart contracts, [the Sylvia Framework](https://medium.com/cosmwasm/the-sylvia-framework-release-b4ffbb74fe3d). I have only been asked to audit one of these a handful of times, but I would say it is getting community attention.
 
 
 ### CosmWasm security
@@ -81,11 +81,11 @@ Now you have all the prerequisites to get into the audit and security specifics 
 
 :muscle: The next stop is practical examples:
 1. [Oak's CosmWasm Security Dojo](https://github.com/oak-security/cosmwasm-security-dojo). In addition to the challenges themselves, you will find an `EXPLAINATION.md` on each dir giving you further details and concepts that are very useful.
-2. [Oak Security CTF](https://github.com/oak-security/cosmwasm-ctf). CosmWasm CTF that me and Richie created for Awesomwasm 2023, a nice overview of different security issues of CW contracts. Medium difficulty I would say.
+2. [Oak Security CTF](https://github.com/oak-security/cosmwasm-ctf). CosmWasm CTF which me and Richie created for Awesomwasm 2023, is a nice overview of different security issues of CW contracts. Medium difficulty I would say.
 3. [DeFiVulnLabsCosmWasm](https://github.com/punishell/DeFiVulnLabsCosmWasm)
 
 
-At the moment there are not many more good resources out there, so it is time to start reading CosmWasm audit reports. This is the best way to get familiar with the kind of security issues that we auditors find during our security reviews.
+There are not many more good resources out there, so it is time to start reading CosmWasm audit reports. This is the best way to get familiar with the kind of security issues that we auditors find during our security reviews.
 
 There are three companies that I know of that have multiple public reports of CosmWasm audits:
 1. [Oak Security](https://github.com/oak-security/audit-reports)
@@ -101,7 +101,6 @@ I don't use many tools, to be honest, just a bunch of VS Extensions and Notion f
 - [Inline Bookmarks](https://marketplace.visualstudio.com/items?itemName=tintinweb.vscode-inline-bookmarks) - audit is just not the same without this one, MVP
 - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) - Do you know you can debug rust unit tests for CW smart contracts? I may write a Medium post in the future
 - [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) - easily displays test coverage from a `lcov` file
-- [Line Note](https://marketplace.visualstudio.com/items?itemName=tkrkt.linenote) - I sometimes like to add 2/3 lines of additional info without breaking the total number of lines and not creating very large one-line comments
-- [Cosmy Wasmy](https://marketplace.visualstudio.com/items?itemName=spoorthi.cosmy-wasmy) - To be honest this has not been helpful to me at the moment, but I keep it in check as it will probably be a nice addition soon when they further polish some of the features.
+- [Line Note](https://marketplace.visualstudio.com/items?itemName=tkrkt.linenote) - I sometimes like to add 2/3 lines of additional info without breaking the total number of lines and not creating extensive one-line comments
 
 :round_pushpin: Aside from these I use a bunch of my own scripts that I am turning into a standalone "printer" tool, will publish it soon. Keep an eye on my new repos!
