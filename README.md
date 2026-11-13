@@ -56,7 +56,6 @@ At this point, you already have at least basic knowledge of blockchain techs, sm
 CosmWasm smart contract programming will be your next stop. You should be able to write easy CW smart contracts, [CW Template](https://github.com/CosmWasm/cw-template) is a nice resource to play around with a bit. You can find a list of resources below, some of the content will overlap so the idea is not to do all of them but but to give more options
 1. [CosmWasm Academy](https://academy.cosmwasm.com/) <-- best maintained one at the time of writing
 2. [CosmWasm zero to hero](https://github.com/Callum-A/cosmwasm-zero-to-hero)
-3. [Area 52](https://area-52.io/)
 
 :heavy_plus_sign: [CosmWasm Plus](https://github.com/CosmWasm/cw-plus) is a set of publicly available base contracts of common implementations following the idea of [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts). Going over some of the main ones and understanding their architecture and behavior is an excellent way to start testing your Smart Contract analysis game, your main skill as a future auditor.
 - [CW20 fungible token](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md)
